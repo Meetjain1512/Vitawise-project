@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+body{
+    font-family: 'Urbanist', sans-serif;
+    background: #f8f8f8;
+  }
+  .rectangle-1352 {
+    background: #f8e4d8;
+    border-radius: 58px;
+    width: 1800px;
+    height: 70px;
+    position: absolute;
+    left: 50px;
+    top: 17px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  .mainmenu{
+    color: var(--mindful-gray-80, #4b3425);
+    text-align: center;
+    font: 200 30px "Urbanist", sans-serif;
+    position: relative;
+    margin-top: 0px;
+    left: 40px;
+    text-decoration: none;
+  }
+  .menudot {
+    background: var(--mindful-gray-60, #926247);
+    border-radius: 1234px;
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    left: 20px;
+    top: 30px;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+  }
+  .vita-wise {
+    color: #4b3425;
+    text-align: center;
+    font: 600 42px "Urbanist", sans-serif;
+    position: absolute;
+    left: 850px;
+    top: 10px;
+  }
+  .logo{
+    padding-top: 5px;
+    margin-left: -40px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1649px;
+    top: 30px;
+  }
+  .monotone-46-email-1 {
+    position: absolute;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+  }
+  .head{
+      text-decoration: none;
+      color: #4b3425;
+  }
+  
+  /* Expert */
+  /* TRENDING CSS */
+.content{
+    display: block;
+  }
+  .trending{
+    margin-top: 12%;
+    /* border: 2px red solid; */
+    display: block;
+    margin-left: -75px;
+  }
+  .trending .trending-title{
+    text-align: center;
+    margin-top: -80px;
+    margin-left: 80px;
+    color: #4b3425;
+  }
+  .trending .wrapper{
+    /* border: 2px red dashed; */
+    width:87%;
+    height: 350px;
+    margin:50px auto;
+    overflow: hidden;
+    
+  }
+  .trending .wrapper .post{
+    display:inline-block;
+    background-color: #f8f8f8;
+    margin: 0px 10px;
+    box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+  }
+  .slider-img{
+    border-radius: 25px;
+  }
+  .trending .wrapper .post .slider-img{
+    width:100%;
+    height:250px;
+    color: #4b3425;
+  }
+  .etinfo a{
+    color: #926247;
+  }
+  .trending .wrapper .post .article-info{
+    height:50px;
+  }
+  .trending .wrapper .post .slider-img:hover {
+    box-shadow: 0 0 30px #926247; 
+    transition: box-shadow 0.3s ease-in-out; 
+  }
+  
+  .mid-container{
+     /* border: 2px solid black; */
+    display: flex;
+    margin:-20px 85px 0px 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:80px 30px;
+    /* align-items: stretch; */
+  }
+  .mid-container .item{
+   margin:20px 20px;
+  }
+  .articles{
+      border: none;
+      cursor: pointer;
+      appearance: none;
+      background-color: inherit;
+  }
+  
+  .latest-wrapper{
+    /* border: 1px solid black; */
+    width:1750px;
+    display:flex;
+  }
+  
+  .latest-wrapper .larticle{
+    /* background-color: aqua; */
+    /* display: inline-block; */
+    height:350px;
+    width: 400px;
+    margin: 10px 10px;
+    
+  }
+  ul{
+    list-style: none;
+  }
+  .mid{
+    color: #4b3425;
+    text-align: center;
+    margin-top: -50px;
+  }
+  .mid-container{
+    /* border: 2px solid black; */
+   display: flex;
+   margin:-20px 85px 0px 10px;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding:50px 30px;
+   /* align-items: stretch; */
+ }
+ .mid-container .item{
+  margin:20px 20px;
+ }
+ .articles{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.latest-wrapper{
+  /* border: 1px solid black; */
+  width:1750px;
+  display:flex;
+  margin-left: 100px;
+}
+
+.latest-wrapper .larticle{
+  /* background-color: aqua; */
+  /* display: inline-block; */
+  height:300px;
+  width: 400px;
+  margin: 10px 10px;
+  overflow: hidden;
+  position: relative;
+}
+.larticle img{
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.larticle{
+    overflow: hidden;
+    position: relative;
+}
+.larticle img:hover{
+    box-shadow: 0 0 30px #926247; 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+ul{
+  list-style: none;
+  margin-left: -25px;
+  margin-top: 40px;
+}
+.larticle:hover .article-det {
+    opacity: 1;
+}
+.article-det :hover{
+    opacity: 1;
+}
+.article-det {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 355px;
+    height: 235px;
+    border-radius: 30px;
+    background-color:#9263479a;  /* Background color for the text */
+    color: #fff; /* Text color */
+    text-align: center;
+    line-height: 30px; /* Vertically center the text - adjust for your image height */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+#Cardiologist{
+    margin-left: 50px;
+    color: #4b3425;
+}
+#Orthopedic{
+    margin-left: 50px;
+    color: #4b3425;
+}
+#neurologist{
+    margin-left: 50px;
+    color: #4b3425;
+}
+#Gynecologist{
+    margin-left: 50px;
+    color: #4b3425;
+}
+#Dermatologist{
+    margin-left: 50px;
+    color: #4b3425;
+}
+#Pediatrician{
+    margin-left: 50px;
+    color: #4b3425;
+}
+#Psychiatrist{
+    margin-left: 50px;
+    color: #4b3425;
+}
+h4{
+    color: #926247;
+}
+h4 :hover{
+    color: #f80d0d;
+}
+/*footer*/
+.footer, .footer * {
+    box-sizing: border-box;
+    }
+  .footer {
+   position: absolute;
+    inset: 0;
+    top: 600px;
+   }
+  
+  .rectangle-2602 {
+   background: #f8e4d8;
+    width: 1880px;
+    height: 456px;
+    position: absolute;
+    left: 0px;
+   top: 3728px;
+   }
+  
+  .copywrite-2023 {
+   color: #4b3425;
+    text-align: left;
+    font: 800 16px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 920px;
+   top: 4152px;
+    width: 124px;
+    height: 17px;
+   }
+  
+  .terms-conditions {
+   color: #4b3425;
+    text-align: left;
+    font: 600 32px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 842px;
+   top: 3918px;
+   }
+  
+  ._1800-1234-12 {
+   color: #4b3425;
+    text-align: left;
+    font: 700 24px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 74px;
+   top: 3932px;
+    width: 183px;
+   }
+  
+  .vita-wise-footer {
+   color: #4b3425;
+    text-align: left;
+    font: 700 32px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 70px;
+    top: 3784px;
+   }
+  
+  .vitawise-gmail-com {
+   color: #4b3425;
+    text-align: left;
+    font: 700 24px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 74px;
+   top: 3887px;
+    width: 295px;
+   }
+  
+  .contact-us {
+   color: rgba(254, 129, 75, 0.80);
+    text-align: left;
+    font: 700 24px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 74px;
+   top: 3850px;
+    width: 295px;
+   }
+  
+  .come-visit-us {
+   color: rgba(254, 129, 75, 0.80);
+    text-align: left;
+    font: 700 24px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 67px;
+   top: 4002px;
+    width: 295px;
+   }
+  
+  .connect-with-us {
+   color: rgba(254, 129, 75, 0.80);
+    text-align: left;
+    font: 700 24px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 1430px;
+   top: 4055px;
+    width: 295px;
+   }
+   
+  .streamline-computer-logo-facebook-1-media-facebook-social {
+   position: absolute;
+    left: 1434px;
+   top: 4115px;
+    overflow: visible;
+   }
+  
+  .streamline-computer-logo-google-media-google-social {
+   position: absolute;
+    left: 1507px;
+   top: 4115px;
+    overflow: visible;
+   }
+  
+  .mdi-instagram {
+   position: absolute;
+    left: 1653px;
+   top: 4115px;
+    overflow: visible;
+   }
+  
+  .uil-linkedin {
+   position: absolute;
+    left: 1726px;
+   top: 4115px;
+    overflow: visible;
+   }
+  
+  .simple-icons-x {
+   position: absolute;
+    left: 1580px;
+   top: 4115px;
+    overflow: visible;
+   }
+  
+  ._123-health-avenue-wellnessville-healthland-54321-medi-care-nation {
+   color: #4b3425;
+    text-align: left;
+    font: 700 24px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 67px;
+   top: 4041px;
+    width: 276px;
+    height: 122px;
+   }
+  
+  .fa-qs {
+   color: #4b3425;
+    text-align: left;
+    font: 600 32px 'Urbanist', sans-serif;
+    position: absolute;
+    left: 945px;
+   top: 3841px;
+   }

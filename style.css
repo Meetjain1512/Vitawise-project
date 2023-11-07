@@ -1,0 +1,375 @@
+.sign-up-page,
+.sign-up-page * {
+  box-sizing: border-box;
+}
+.sign-up-page {
+  background: #f8f8f8;
+  border-radius: 35px;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1366 {
+  background: #e5ead7;
+  border-radius: 48px;
+  width: 715px;
+  height: 864px;
+  position: absolute;
+  left: 700px;
+  top: 142px;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1352 {
+  background: #f8e4d8;
+  border-radius: 58px;
+  width: 1391px;
+  height: 91px;
+  position: absolute;
+  left: 24px;
+  top: 30px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 49px);
+  top: calc(50% - 453px);
+}
+.logomark {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 118px;
+  height: 31px;
+  position: absolute;
+  left: 51px;
+  top: calc(50% - 455px);
+}
+.main-menu {
+  color: var(--mindful-gray-80, #4b3425);
+  text-align: left;
+  font: 600 24px "Urbanist", sans-serif;
+  position: relative;
+}
+.psyche {
+  background: var(--mindful-gray-60, #926247);
+  border-radius: 1234px;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1249px;
+  top: 43px;
+}
+.button-icon {
+  background: var(--mindful-gray-white, #ffffff);
+  border-radius: 1000px;
+  padding: 16px;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+.monotone-46-email-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+}
+.vector5 {
+  border-radius: 1234px;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+}
+.vector6 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 6px;
+  top: 0px;
+}
+.monotone-54-telephone {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.vita-wise {
+  color: #4b3425;
+  text-align: left;
+  font: 700 32px "Urbanist", sans-serif;
+  position: absolute;
+  left: 720px;
+  top: 57px;
+}
+.image-17 {
+  border-radius: 62px;
+  border-style: solid;
+  border-color: #4b3425;
+  border-width: 1px;
+  width: 364px;
+  height: 350px;
+  position: absolute;
+  left: 24px;
+  top: 622px;
+}
+.image-18 {
+  border-radius: 54px;
+  border-style: solid;
+  border-color: #4b3425;
+  border-width: 1px;
+  width: 394px;
+  height: 319px;
+  position: absolute;
+  left: 685px;
+  top: 400px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+.image-19 {
+  border-radius: 49px;
+  border-style: solid;
+  border-color: #4b3425;
+  border-width: 1px;
+  width: 396px;
+  height: 317px;
+  position: absolute;
+  left: 24px;
+  top: 142px;
+}
+.group-33942 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1361 {
+  background: #f8f8f8;
+  border-radius: 100px;
+  width: 665px;
+  height: 108px;
+  position: absolute;
+  left: 728px;
+  top: 157px;
+}
+.line-6 {
+  position: absolute;
+  left: 789px;
+  top: 228px;
+  overflow: visible;
+}
+.text {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 700 32px/160% "Urbanist", sans-serif;
+  position: absolute;
+  left: 796px;
+  top: 171px;
+  width: 457px;
+  height: 57px;
+}
+.group-33943 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1362 {
+  background: #f8f8f8;
+  border-radius: 100px;
+  width: 665px;
+  height: 108px;
+  position: absolute;
+  left: 728px;
+  top: 290px;
+}
+.line-7 {
+  position: absolute;
+  left: 789px;
+  top: 364px;
+  overflow: visible;
+}
+.text2 {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 700 32px/160% "Urbanist", sans-serif;
+  position: absolute;
+  left: 796px;
+  top: 307px;
+  width: 457px;
+  height: 57px;
+}
+.group-33944 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1367 {
+  background: #f8f8f8;
+  border-radius: 100px;
+  width: 665px;
+  height: 108px;
+  position: absolute;
+  left: 728px;
+  top: 423px;
+}
+.line-8 {
+  position: absolute;
+  left: 789px;
+  top: 497px;
+  overflow: visible;
+}
+.text3 {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 700 32px/160% "Urbanist", sans-serif;
+  position: absolute;
+  left: 796px;
+  top: 440px;
+  width: 457px;
+  height: 57px;
+}
+.button-secondary {
+  background: var(--serenity-green-50, #9bb068);
+  border-radius: 1000px;
+  padding: 16px 8px 16px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  width: 665px;
+  height: 78px;
+  position: absolute;
+  left: 728px;
+  top: 841px;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.text4 {
+  color: var(--mindful-gray-white, #ffffff);
+  text-align: left;
+  font: 700 40px "Urbanist", sans-serif;
+  position: relative;
+}
+.button-icon2 {
+  background: var(--mindful-gray-white, #ffffff);
+  border-radius: 1234px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.monotone-04-arrow-right-sm {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.already-have-an-account-sign-in {
+  text-align: left;
+  font: 700 24px "Urbanist", sans-serif;
+  position: absolute;
+  left: 843px;
+  top: 957px;
+  width: 435px;
+  height: 51px;
+}
+.already-have-an-account-sign-in-span {
+  color: #000000;
+  font: 700 24px "Urbanist", sans-serif;
+}
+.already-have-an-account-sign-in-span2 {
+  color: #7d944d;
+  font: 700 24px "Urbanist", sans-serif;
+}
+.group-33945 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1368 {
+  background: #f8f8f8;
+  border-radius: 100px;
+  width: 665px;
+  height: 108px;
+  position: absolute;
+  left: 728px;
+  top: 556px;
+}
+.line-9 {
+  position: absolute;
+  left: 789px;
+  top: 630px;
+  overflow: visible;
+}
+.text5 {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 700 32px/160% "Urbanist", sans-serif;
+  position: absolute;
+  left: 796px;
+  top: 573px;
+  width: 457px;
+  height: 57px;
+}
+.group-33946 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1369 {
+  background: #f8f8f8;
+  border-radius: 100px;
+  width: 665px;
+  height: 108px;
+  position: absolute;
+  left: 728px;
+  top: 689px;
+}
+.line-10 {
+  position: absolute;
+  left: 789px;
+  top: 763px;
+  overflow: visible;
+}
+.text6 {
+  color: rgba(0, 0, 0, 0.25);
+  text-align: left;
+  font: 700 32px/160% "Urbanist", sans-serif;
+  position: absolute;
+  left: 796px;
+  top: 706px;
+  width: 457px;
+  height: 57px;
+}

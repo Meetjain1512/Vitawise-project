@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+body{
+    font-family: 'Urbanist', sans-serif;
+    background: #f8f8f8;
+  }
+  .rectangle-1352 {
+    background: #f8e4d8;
+    border-radius: 58px;
+    width: 1800px;
+    height: 70px;
+    position: absolute;
+    left: 50px;
+    top: 17px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  .mainmenu{
+    color: var(--mindful-gray-80, #4b3425);
+    text-align: center;
+    font: 200 30px "Urbanist", sans-serif;
+    position: relative;
+    margin-top: 0px;
+    left: 40px;
+    text-decoration: none;
+  }
+  .menudot {
+    background: var(--mindful-gray-60, #926247);
+    border-radius: 1234px;
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    left: 20px;
+    top: 30px;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+  }
+  .vita-wise {
+    color: #4b3425;
+    text-align: center;
+    font: 600 42px "Urbanist", sans-serif;
+    position: absolute;
+    left: 850px;
+    top: 10px;
+  }
+  .logo{
+    padding-top: 5px;
+    margin-left: -40px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1649px;
+    top: 30px;
+  }
+  .monotone-46-email-1 {
+    position: absolute;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+  }
+  .head{
+      text-decoration: none;
+      color: #4b3425;
+  }
+
+  /* calories */
+  .nav-wrapper{
+    margin-top: 5%;
+  }
+  .brand-logo center{
+    color: #4b3425;
+  }

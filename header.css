@@ -1,0 +1,124 @@
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+body{
+  background-color: #4b3425;
+}
+.rectangle-1352 {
+  background: #f8e4d8;
+  border-radius: 58px;
+  width: 1800px;
+  height: 70px;
+  position: absolute;
+  left: 50px;
+  top: 17px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  margin-left: 850px;
+  height: 100px;
+}
+.logomark {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 80px;
+  margin-top: -65px;
+}
+.main{
+  color: var(--mindful-gray-80, #4b3425);
+  text-align: center;
+  font: 200 30px "Urbanist", sans-serif;
+  position: relative;
+  /* margin-top: -110px; */
+}
+.psyche {
+  background: var(--mindful-gray-60, #926247);
+  border-radius: 1234px;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1649px;
+  top: 30px;
+}
+.button-icon {
+  background: var(--mindful-gray-white, #ffffff);
+  border-radius: 1000px;
+  padding: 16px;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+.monotone-46-email-1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+}
+.vector5 {
+  border-radius: 1234px;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 18px;
+  height: 14px;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+}
+.vector6 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--mindful-gray-80, #4b3425);
+  border-width: 2px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 6px;
+  top: 0px;
+}
+.monotone-54-telephone {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.vita-wise {
+  color: #4b3425;
+  text-align: center;
+  font: 600 42px "Urbanist", sans-serif;
+  position: absolute;
+  left: 900px;
+  top: 28px;
+}

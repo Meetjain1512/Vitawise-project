@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+body{
+    font-family: 'Urbanist', sans-serif;
+    background: #F8ECE4;
+    overflow: hidden;
+  }
+  .rectangle-1352 {
+    background: #f8e4d8;
+    border-radius: 58px;
+    width: 1800px;
+    height: 70px;
+    position: absolute;
+    left: 50px;
+    top: 17px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  .mainmenu{
+    color: var(--mindful-gray-80, #4b3425);
+    text-align: center;
+    font: 200 30px "Urbanist", sans-serif;
+    position: relative;
+    margin-top: 0px;
+    left: 40px;
+    text-decoration: none;
+  }
+  .menudot {
+    background: var(--mindful-gray-60, #926247);
+    border-radius: 1234px;
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    left: 20px;
+    top: 30px;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+  }
+  .vita-wise {
+    color: #4b3425;
+    text-align: center;
+    font: 600 42px "Urbanist", sans-serif;
+    position: absolute;
+    left: 850px;
+    top: 10px;
+  }
+  .logo{
+    padding-top: 5px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1649px;
+    top: 30px;
+  }
+  .monotone-46-email-1 {
+    position: absolute;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+  }
+  .head{
+      text-decoration: none;
+      color: #4b3425;
+  }
+  /* Mainmenu */
+
+.pages {
+    display: flex;
+     flex-direction: column;
+     gap: 16px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     position: absolute;
+     left: 71px;
+     top: 108px;
+    }
+ 
+ .home {
+     border-radius: 1234px;
+     padding: 16px 32px 16px 32px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .home-content {
+    display: flex;
+     flex-direction: row;
+     gap: 24px;
+     align-items: center;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .home2 {
+    color: #4b3425;
+     text-align: left;
+     font: var(--headinglg-bold, 700 48px/43px 'Urbanist', sans-serif);
+     position: relative;
+    }
+ 
+ .symptom {
+    border-radius: 1234px;
+     padding: 16px 32px 16px 32px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .symptom-content {
+    display: flex;
+     flex-direction: row;
+     gap: 24px;
+     align-items: center;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .symptom-checker {
+    color: var(--mindful-gray-white, #4b3425);
+     text-align: left;
+     font: var(--headinglg-bold, 700 48px/43px 'Urbanist', sans-serif);
+     position: relative;
+    }
+ 
+ .articles {
+    border-radius: 1234px;
+     padding: 16px 32px 16px 32px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .articles-content {
+    display: flex;
+     flex-direction: row;
+     gap: 24px;
+     align-items: center;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .articles2 {
+    color: var(--mindful-gray-white, #4b3425);
+     text-align: left;
+     font: var(--headinglg-bold, 700 48px/43px 'Urbanist', sans-serif);
+     position: relative;
+    }
+ 
+ .bmi {
+    border-radius: 1234px;
+     padding: 16px 32px 16px 32px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .bmi-content {
+    display: flex;
+     flex-direction: row;
+     gap: 24px;
+     align-items: center;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .bmi-calculator {
+    color: var(--mindful-gray-white, #4b3425);
+     text-align: left;
+     font: var(--headinglg-bold, 700 48px/43px 'Urbanist', sans-serif);
+     position: relative;
+     text-decoration: none;
+    }
+ 
+ .calorie {
+    border-radius: 1234px;
+     padding: 16px 32px 16px 32px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .calorie-content {
+    display: flex;
+     flex-direction: row;
+     gap: 24px;
+     align-items: center;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .calorie-counter {
+    color: var(--mindful-gray-white, #4b3425);
+     text-align: left;
+     font: var(--headinglg-bold, 700 48px/43px 'Urbanist', sans-serif);
+     position: relative;
+    }
+ 
+ .contact {
+    border-radius: 1234px;
+     padding: 16px 32px 16px 32px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .contact-content {
+    display: flex;
+     flex-direction: row;
+     gap: 24px;
+     align-items: center;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .contact-us {
+    color: var(--mindful-gray-white, #4b3425);
+     text-align: left;
+     font: var(--headinglg-bold, 700 48px/43px 'Urbanist', sans-serif);
+     position: relative;
+    }
+ 
+ .about {
+    border-radius: 1234px;
+     padding: 16px 32px 16px 32px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .about-content {
+    display: flex;
+     flex-direction: row;
+     gap: 24px;
+     align-items: center;
+     justify-content: flex-start;
+     flex-shrink: 0;
+     position: relative;
+    }
+ 
+ .about-us {
+    color: var(--mindful-gray-white, #4b3425);
+     text-align: left;
+     font: var(--headinglg-bold, 700 48px/43px 'Urbanist', sans-serif);
+     position: relative;
+    }
+ .link{
+    text-decoration: none;
+    color: #fff;
+ }
+ .pages a:hover {
+    background: #eee1d8;
+    color: #4b3425;
+    border-radius: 1234px;
+    padding: 16px 32px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    }
+
+    .image-31 {
+        border-radius: 37px;
+         border-style: solid;
+         border-color: #4b3425;
+         border-width: 1px;
+         width: 230px;
+         height: 230px;
+         position: absolute;
+         left: 1350px;
+        top: 206px;
+        }
+     
+     .image-37 {
+        border-radius: 37px;
+         border-style: solid;
+         border-color: #000000;
+         border-width: 1px;
+         width: 230px;
+         height: 230px;
+         position: absolute;
+         left: 1350px;
+        top: 706px;
+        }
+     
+     .image-46 {
+        border-radius: 37px;
+         border-style: solid;
+         border-color: #4b3425;
+         border-width: 1px;
+         width: 230px;
+         height: 230px;
+         position: absolute;
+         left: 1034px;
+        top: 451px;
+        }
+         
+         .terms-conditions {
+            color: #4b3425;
+             text-align: left;
+             font: 800 20px 'Urbanist', sans-serif;
+             text-transform: uppercase;
+             position: absolute;
+             left: 854px;
+            top: 155px;
+            }
+         
+         .privacy-policy {
+            color: #4b3425;
+             text-align: left;
+             font: 800 20px 'Urbanist', sans-serif;
+             text-transform: uppercase;
+             position: absolute;
+             left: 1108px;
+            top: 157px;
+            }
+         
+         .ellipse-5 {
+            background: #bb9586;
+             border-radius: 50%;
+             width: 13px;
+             height: 12px;
+             position: absolute;
+             left: 1079px;
+             top: 162px;
+            }
+            @media screen  and (max-width:600px){
+                  .rectangle-1352 {
+    background: #f8e4d8;
+    border-radius: 58px;
+    width: 1800px;
+    height: 70px;
+    position: absolute;
+    left: 50px;
+    top: 17px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  .mainmenu{
+    color: var(--mindful-gray-80, #4b3425);
+    text-align: center;
+    font: 200 30px "Urbanist", sans-serif;
+    position: relative;
+    margin-top: 0px;
+    left: 40px;
+    text-decoration: none;
+  }
+  .menudot {
+    background: var(--mindful-gray-60, #926247);
+    border-radius: 1234px;
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    left: 20px;
+    top: 30px;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+  }
+  .vita-wise {
+    color: #4b3425;
+    text-align: center;
+    font: 600 42px "Urbanist", sans-serif;
+    position: absolute;
+    left: 850px;
+    top: 10px;
+  }
+  .logo{
+    padding-top: 5px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1649px;
+    top: 30px;
+  }
+  .monotone-46-email-1 {
+    position: absolute;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+  }             
+         }
+@media screen and (max-width: 600px) {
+    .rectangle-1352 {
+        background: #f8e4d8;
+        border-radius: 58px;
+        width: 280px;
+        height: 70px;
+        position: absolute;
+        left: 50px;
+        top: 17px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+      .main{
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        justify-content: flex-start;
+        margin-left: 0px;
+        margin-top: 16px;
+      }
+      .mainmenu{
+        color: var(--mindful-gray-80, #4b3425);
+        text-align: center;
+        font: 200 10px "Urbanist", sans-serif;
+        position: relative;
+        margin-top: 12px;
+        left: 40px;
+        text-decoration: none;
+      }
+      .menudot {
+        background: var(--mindful-gray-60, #926247);
+        border-radius: 1234px;
+        flex-shrink: 0;
+        width: 8px;
+        height: 8px;
+        left: 20px;
+        top: 30px;
+        position: relative;
+        overflow: hidden;
+        position: absolute;
+      }
+      .vita-wise {
+        color: #4b3425;
+        text-align: center;
+        font: 600 42px "Urbanist", sans-serif;
+        position: absolute;
+        left: 850px;
+        top: 10px;
+      }
+      .logo{
+        padding-top: 5px;
+      }
+      .icons {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        left: 1649px;
+        top: 30px;
+      }
+      .monotone-46-email-1 {
+        position: absolute;
+        left: calc(50% - 12px);
+        top: calc(50% - 12px);
+      }
+}

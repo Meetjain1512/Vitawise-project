@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Dosis&family=Noto+Sans&family=Urbanist:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.
+
+/* TRENDING CSS */
+.content {
+  display: block;
+}
+
+.trending {
+
+  margin-top: 8%;
+  /* border: 2px red solid; */
+  display: block;
+
+}
+
+.trending .trending-title {
+  text-align: center;
+  margin: 0px auto;
+
+}
+
+.trending .wrapper {
+  /* border: 2px red dashed; */
+  width: 87%;
+  height: 450px;
+  margin: 50px auto;
+  overflow: hidden;
+
+}
+
+.trending .wrapper .post {
+  display: inline-block;
+  height: 300px;
+  width: 350px;
+  background-color: white;
+  margin: 0px 10px;
+  /* box-shadow: 1rem 1rem 1rem -1rem #a0a0a033; */
+}
+
+.trending .wrapper .post .slider-img {
+  width: 100%;
+  height: 250px;
+}
+
+.trending .wrapper .post .article-info {
+  height: 50px;
+  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+
+
+}
+
+
+#trendingbtn {
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.mid-container {
+  /* border: 2px solid black; */
+  display: flex;
+  margin: -20px 85px 0px 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 80px 30px;
+  /* align-items: stretch; */
+}
+
+.mid-container .item {
+  margin: 20px 60px;
+}
+
+.articles {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+}
+
+.latest-title {
+  margin-left: 50px;
+}
+
+.latest-wrapper {
+  /* border: 1px solid black; */
+  margin-left: 100px;
+  width: 1750px;
+  display: flex;
+}
+
+.latest-wrapper .larticle {
+  /* background-color: aqua; */
+  /* display: inline-block; */
+  height: 450px;
+  width: 400px;
+  margin: 10px 10px;
+  border-radius: 25px;
+}
+
+.larticle {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add your desired shadow properties here */
+  transition: box-shadow 0.3s ease;
+  /* Add a smooth transition effect when hovering over the element */
+}
+
+.larticle:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Adjust shadow properties on hover if needed */
+}
+
+.article-det {
+  padding: 0px 10px;
+}
+
+h3 {
+  padding: 0px 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.az-articles {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.alphabet-container {
+  display: flex;
+
+}
+
+.alphabet-box {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.alphabet-box:hover {
+  background-color: rgba(207, 217, 181, 1);
+}
+
+
+
+#latestbtn {
+  margin-left: 50px;
+  margin-bottom: 80px;
+}
+
+/* header */
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  background: #F8f8f8;
+}
+
+.rectangle-1352 {
+  background: #f8e4d8;
+  border-radius: 58px;
+  width: 1800px;
+  height: 70px;
+  position: absolute;
+  left: 50px;
+  top: 17px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: flex-start;
+  margin-left: 0px;
+  margin-top: 16px;
+}
+
+.mainmenu {
+  color: var(--mindful-gray-80, #4b3425);
+  text-align: center;
+  font: 200 30px "Urbanist", sans-serif;
+  position: relative;
+  margin-top: 0px;
+  left: 40px;
+  text-decoration: none;
+}
+
+.menudot {
+  background: var(--mindful-gray-60, #926247);
+  border-radius: 1234px;
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  left: 20px;
+  top: 30px;
+  position: relative;
+  overflow: hidden;
+  position: absolute;
+}
+
+.vita-wise {
+  color: #4b3425;
+  text-align: center;
+  font: 600 42px "Urbanist", sans-serif;
+  position: absolute;
+  left: 810px;
+  top: 10px;
+}
+
+.logo {
+  padding-top: 5px;
+}
+
+.marker-home {
+  position: absolute;
+  top: 450px;
+  transform: translate(0.09px, -16.73px);
+  overflow: visible;
+  left: -10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1649px;
+  top: 30px;
+}
+
+.monotone-46-email-1 {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 12px);
+}
+
+
+/* footer */

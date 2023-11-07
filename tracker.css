@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+body{
+    font-family: 'Urbanist', sans-serif;
+    background: #F8f8f8;
+  }
+  .rectangle-1352 {
+    background: #f8e4d8;
+    border-radius: 58px;
+    width: 1800px;
+    height: 70px;
+    position: absolute;
+    left: 50px;
+    top: 17px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+  .mainmenu{
+    color: var(--mindful-gray-80, #4b3425);
+    text-align: center;
+    font: 200 30px "Urbanist", sans-serif;
+    position: relative;
+    margin-top: 0px;
+    left: 40px;
+    text-decoration: none;
+  }
+  .menudot {
+    background: var(--mindful-gray-60, #926247);
+    border-radius: 1234px;
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    left: 20px;
+    top: 30px;
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+  }
+  .vita-wise {
+    color: #4b3425;
+    text-align: center;
+    font: 600 42px "Urbanist", sans-serif;
+    position: absolute;
+    left: 810px;
+    top: 10px;
+  }
+  .logo{
+    padding-top: 5px;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    color: #4b3425;
+  }
+  .marker-home {
+    position: absolute;
+    top: 450px;
+    transform: translate(0.09px, -16.73px);
+    overflow: visible;
+    left: -10px;
+   }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1649px;
+    top: 30px;
+  }
+  .monotone-46-email-1 {
+    position: absolute;
+    left: calc(50% - 12px);
+    top: calc(50% - 12px);
+  }
+  .circle{
+    width: 50px;
+    height: 50px;
+    background-color: #d9dbce;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .rectangle{
+        width: 1000px;
+        height: 70px;
+        background-color: #9BB068;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        border-radius: 37px;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
+        font-family:'Lato', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        font-size: 70px;
+        position: absolute;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 350px auto;
+        position: relative;
+        padding: 20px;
+        border-radius: 5px;
+        
+    }
+    
+    #img1{
+        margin-top: 250px;
+        margin-left: 150px;
+        border-radius: 37px;
+        border-color: black ;
+        border: solid 2px;
+        position: relative;
+    }
+    h1 {
+        text-align: center;
+        color: #9BB068;
+        font-size: 50px;
+    }
+    
+    .input-container {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .input-container input {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px 0 0 5px;
+        font-size: 20px;
+    }
+    
+    .input-container button {
+        padding: 10px 15px;
+        background-color: #a5be7e;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    #addtaskBtn{
+        background-color: #a5be7e;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        color: #FE814B;
+    }
+    
+    li {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        font-size: 25px;
+    }
+    
+    li:last-child {
+        border-bottom: none;
+    }
+    
+    li input[type="checkbox"] {
+        margin-right: 10px;
+        font-size: 25px;
+        margin-left: 55px;
+    }
+    #tasklist{
+        color: #FE814B;
+        margin-top: -50px;
+        font-size: 25px;
+        padding-left: 25px;
+        font-family: sans-serif;
+    }
+    .deleteBtn{
+        background-color: #a5be7e;
+        position: absolute;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        margin-left: 350px;
+        width: fit-content;
+        height: 30px;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+    .deleteBtn:hover{
+        background-color: #d9dbce;
+        color: #1e454c;
+    }
+    .check{
+        background-color: #FE814B;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        margin-left: 20px;
+        width: 150px;
+        height: 25px;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .text{
+        color: #FE814B;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    /*@media screen and (max-width: 500px) {
+        .container {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }*/
+    /* @media screen and (max-width:600px) {
+        body {
+            background-color: #F8F8F8;
+        }
+
+        .rectangle{
+            width: 90%;
+            height: 45px;
+            background-color: #d9dbce;
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            border-radius: 25px;
+            transform: translate(-50%, -50%);
+            color: #1e454c;
+            box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
+            font-family: sans-serif;
+            font-size: 55px;
+            text-align: center;
+            font-size: 35px;
+        }
+                
+        h1 {
+            text-align: center;
+            color: #d9dbce;
+            font-size: 36px;
+            justify-content: space-between;
+            width: auto;
+            margin-top: -100px;
+            padding-top: 15px;
+        }
+        .container {
+            max-width: 100%;
+            padding: 10px;
+        }
+    
+        .input-container {
+            flex-direction: column;
+            align-items: stretch;
+        }
+    
+        .input-container input {
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    
+        .input-container button {
+            border-radius: 5px;
+        }
+    
+        li {
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 0;
+            margin-top: 40px;
+            text-align: center;
+        }
+    
+        li input[type="checkbox"] {
+            margin-left: -180px;
+            margin-bottom: 10px;
+            margin-top: 25px;
+        }
+        
+        .deleteBtn{
+            margin-left: 150px;
+            width: fit-content;
+            height: fit-content;
+            margin-top: 20px;
+        }
+        .task{
+            margin-right: 50px;
+            margin-top:-25px;
+            margin-bottom: 25px;
+        }
+    }  */
